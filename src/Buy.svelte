@@ -1,17 +1,11 @@
 <script>
-  import {islogin,mode} from './Store.js';
-  
-  function logout() {
-    $islogin = false;
-    
-  }
+  import {accounts,mode} from './Store.js'
 </script>
 
-<body>
-  <h1>Welcome to SoftLottery</h1>
-  <button on:click ={()=>$mode='register'}>Register</button>
-  <button on:click ={()=>$mode='login'}>Login</button>
 
+<body>
+  <h2>Buy SoftLottery</h2>
+  <button on:click = {()=>$mode='menu2'} class='back'>Back to Menu</button>
 </body>
 
 <style>
@@ -30,7 +24,6 @@
     justify-content:center;
     align-items: center;
 }
-  
   button{
   display:flex;
   flex-direction: column;
@@ -38,7 +31,7 @@
   align-items: center;
   border:none;
   height: 40px;
-  width: 250px;
+  width: 90px;
   margin: 5px;
   padding: 0 10px;
   border-radius: 5px;
@@ -46,5 +39,4 @@
   cursor: pointer;
   text-align: center;
   }
-</style>
-
+  </style>

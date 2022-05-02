@@ -1,10 +1,11 @@
 <script>
-  import {accounts} from './Store.js'
+  import {accounts,mode} from './Store.js'
 </script>
 
 
 <body>
   <h2>Checked Your SoftLottery</h2>
+  <button on:click = {()=>$mode='menu2'}>Back to Menu</button>
 </body>
 
 <style>

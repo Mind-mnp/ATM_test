@@ -2,15 +2,15 @@
   import {islogin,mode} from './Store.js';
   
   function logout() {
-    $islogin = false;
+    $mode = menu;
     
   }
 </script>
 
 <body>
-  <button on:click ={()=>$mode='deposit'}>Deposit</button>
-  <button on:click ={()=>$mode='withdraw'}>Withdraw</button>
-  <button on:click = {()=>$mode = 'checked'}>Check balance</button>
+  <h1>Menu</h1>
+  <button on:click ={()=>$mode='buy'}>Buy</button>
+  <button on:click = {()=>$mode = 'check'}>Check balance</button>
   <button on:click={logout}>Logout</button>
 </body>
 

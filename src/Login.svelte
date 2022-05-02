@@ -1,5 +1,5 @@
 <script>
-  import {accounts, islogin} from './Store.js';
+  import {accounts, islogin,mode} from './Store.js';
   let AccountNo = ''
   let pin = ''
 
@@ -8,7 +8,7 @@
       alert('Incorrect');
     }
     else{
-      $islogin = true;
+      $mode = 'menu2';
       AccountNo = '';
       pin = '';
     }
