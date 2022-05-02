@@ -9,8 +9,8 @@
 
 <body>
   <h1>Menu</h1>
-  <button on:click ={()=>$mode='buy'}>Buy</button>
-  <button on:click = {()=>$mode = 'check'}>Check balance</button>
+  <button on:click ={()=>$mode='buy'}>Buy Lottery</button>
+  <button on:click = {()=>$mode = 'check'}>Check Lottery</button>
   <button on:click={logout}>Logout</button>
 </body>
 

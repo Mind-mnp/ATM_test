@@ -24,7 +24,7 @@
     justify-content:center;
     align-items: center;
 }
-  button{
+  .back{
   display:flex;
   flex-direction: column;
   justify-content:center;
@@ -38,5 +38,8 @@
   box-sizing: border-box;
   cursor: pointer;
   text-align: center;
+  position:fixed;
+  bottom: 0px;
+  right: 0px
   }
   </style>

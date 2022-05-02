@@ -5,7 +5,7 @@
 
 <body>
   <h2>Checked Your SoftLottery</h2>
-  <button on:click = {()=>$mode='menu2'}>Back to Menu</button>
+  <button on:click = {()=>$mode='menu2'} class='back'>Back to Menu</button>
 </body>
 
 <style>
@@ -24,4 +24,22 @@
     justify-content:center;
     align-items: center;
 }
+  .back{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  border:none;
+  height: 40px;
+  width: 90px;
+  margin: 5px;
+  padding: 0 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  position:fixed;
+  bottom: 0px;
+  right: 0px
+  }
   </style>
