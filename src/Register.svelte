@@ -18,12 +18,12 @@
 </script>
 
 <body>
-  <form class='login'>
- <h2>Login</h2>
+  <form class='register'>
+ <h2>Register</h2>
   <label><input bind:value={AccountNo} placeholder='ID'></label>
   <label><input type='password'bind:value={pin} 
  placeholder='PIN'></label>
-  <button on:click={checkaccount}>Login</button>
+  <button on:click={checkaccount}>Submit</button>
   </form>
  
 </body>
@@ -44,7 +44,7 @@
     justify-content:center;
     align-items: center;
 }
-  form.login{
+  form.register{
     display:flex;
     flex-direction: column;
     justify-content:center;

@@ -8,9 +8,10 @@
 </script>
 
 <body>
-  <button on:click ={()=>$mode='register'}>Register</button>
-  <button on:click ={()=>$mode='login'}>Login</button>
-
+  <button on:click ={()=>$mode='deposit'}>Deposit</button>
+  <button on:click ={()=>$mode='withdraw'}>Withdraw</button>
+  <button on:click = {()=>$mode = 'checked'}>Check balance</button>
+  <button on:click={logout}>Logout</button>
 </body>
 
 <style>

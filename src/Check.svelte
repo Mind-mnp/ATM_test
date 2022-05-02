@@ -4,7 +4,7 @@
 
 
 <body>
-  <h2>Checked</h2>
+  <h2>Checked Your SoftLottery</h2>
 </body>
 
 <style>
